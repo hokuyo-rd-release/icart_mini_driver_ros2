@@ -54,8 +54,6 @@
     - true: ypspurの関数と実測値を用いて，odomを計算します
     - false: cmd_velからodomを計算します
 # Install
-
-
 ```
 # ypspurのインストール
 cd ~/colcon_ws/src
@@ -69,7 +67,7 @@ sudo make install
 
 # モータドライバインストールの確認
 # 端末 1
-ypspur-coordinator -d /dev/ttyUSB0 --blvr -p ~/colcon_ws/src/hokuyo_navigation2/params/icart_ypspur_params/iCart3_100W.param
+ypspur-coordinator -d /dev/ttyUSB0 --blvr -p <PATH_TO_YOUR_PARAM_FILE>/wizurg_lio.param
 
 # 端末 2
 cd ~/colcon_ws/src/yp-spur/build/sample
