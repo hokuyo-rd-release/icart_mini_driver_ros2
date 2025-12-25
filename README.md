@@ -57,7 +57,7 @@
 ```
 # ypspurのインストール
 cd ~/colcon_ws/src
-git clone https://github.com/hokuyo-rd/yp-spur.git
+git clone https://github.com/hokuyo-rd-release/yp-spur.git
 cd yp-spur
 mkdir build
 cd build
@@ -74,7 +74,7 @@ cd ~/colcon_ws/src/yp-spur/build/sample
 ./run-test
 
 # icart_mini_driver_ros2のインストール
-git clone https://github.com/hokuyo-rd/icart_mini_driver_ros2.git
+git clone https://github.com/hokuyo-rd-release/icart_mini_driver_ros2.git
 ```
 
 # Build
