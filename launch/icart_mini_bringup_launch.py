@@ -9,7 +9,7 @@ def generate_launch_description():
     icart_mini_driver_dir = get_package_share_directory('icart_mini_driver')
 
     #for ypspur param file ex.RADIUS,TREAD
-    ypspur_param = os.path.join(icart_mini_driver_dir,'config','wizurg_lio.param')
+    ypspur_param = os.path.join(icart_mini_driver_dir,'config','icart_edu.param')
     
     #for icart_driver_node param file ex. odom_frame_id,Hz
     driver_param = os.path.join(icart_mini_driver_dir,'config','driver_node.param.yaml')

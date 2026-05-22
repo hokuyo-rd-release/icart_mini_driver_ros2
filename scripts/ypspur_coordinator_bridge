@@ -8,8 +8,9 @@
 #ypspur-coordinator -p $1 -d /dev/ttyACM0
 
 #devide is icart
-# sudo chmod 777 /dev/ttyUSB0
-ypspur-coordinator -d /dev/ttyUSB0 --blvr -p $1
+#sudo chmod 777 /dev/serial/by-id/usb-T-frog_project_T-frog_Driver-if00
+ypspur-coordinator -p $1 -d /dev/serial/by-id/usb-T-frog_project_T-frog_Driver-if00
+#ypspur-coordinator -d /dev/ttyUSB0 --blvr -p $1
 #/home/colcon_ws/src/icart_mini_driver_ros2/config/wizurg_lio.param
 #ypspur-coordinator -p $1 -d /dev/ttyUSB0 --reconnect --high-resolution
 echo "robot parameters [$1] loaded"
